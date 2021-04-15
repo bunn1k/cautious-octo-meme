@@ -1,0 +1,11 @@
+library MainDll;
+
+
+uses
+  System.SysUtils,
+  System.Classes, ShareMem;
+
+{$R *.res}
+
+begin
+end.

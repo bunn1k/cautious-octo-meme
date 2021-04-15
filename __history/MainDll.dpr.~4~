@@ -1,0 +1,21 @@
+library MainDll;
+
+
+uses
+  System.SysUtils,
+  System.Classes, ShareMem;
+
+{$R *.res}
+
+function SummaX_Y(X,Y:real):real; stdcall; {функция возращающая сумму двух чисел X и Y}
+begin
+  result:=X+Y;
+end;
+
+function ProizvX_Y(X,Y:real):real; stdcall; {функция возвращающая произведение двух чисел X и Y}
+begin
+  result:=X*Y;
+end;
+
+begin
+end.
