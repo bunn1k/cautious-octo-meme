@@ -1,0 +1,57 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
+
+type
+  TForm1 = class(TForm)
+    Button1: TButton;
+    Edit1: TEdit;
+    Edit2: TEdit;
+    Edit3: TEdit;
+    RichEdit1: TRichEdit;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+
+  public
+
+  end;
+
+var
+  Form1: TForm1;
+  SummaX_Y: function(X,Y:real):real;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var X,Y:real; S:string;
+begin
+  RichEdit1.Clear;
+  X:=StrToFloat(Edit1.Text);
+  Y:=StrToFloat(Edit2.Text);
+  S:=Edit3.Text;
+
+  ShowMessage('Библиотека MainDll.dll загружена, можете использовать'
+    +#10#13+'нужные вам библиотечные функции');
+  MessageBeep(1000);
+
+  RichEdit1.Lines.Add('Сумма X и Y равна '+ FloatToStr(SummaX_Y(X,Y)));
+  RichEdit1.Lines.Add('');
+
+  RichEdit1.Lines.Add('Произведение X и Y равно '+ FloatToStr(ProizvX_Y(X,Y)));
+  RichEdit1.Lines.Add('');
+
+  RichEdit1.Lines.Add('Строка перевернута --> '+ Revers(S));
+
+
+end;
+
+end.
