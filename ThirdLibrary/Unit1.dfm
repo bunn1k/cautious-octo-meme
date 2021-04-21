@@ -2,8 +2,8 @@ object Form1: TForm1
   Left = 0
   Top = 0
   Caption = 'Form1'
-  ClientHeight = 300
-  ClientWidth = 497
+  ClientHeight = 364
+  ClientWidth = 752
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -121,5 +121,29 @@ object Form1: TForm1
     Font.Style = []
     ParentFont = False
     TabOrder = 4
+  end
+  object Button2: TButton
+    Left = 248
+    Top = 16
+    Width = 169
+    Height = 90
+    Caption = 
+      #1047#1072#1087#1091#1089#1082' '#1092#1091#1085#1082#1094#1080#1080' ProizvX_Y '#1080#1079' '#1076#1080#1085#1072#1084#1080#1095#1077#1089#1082#1080' '#1087#1086#1076#1082#1083#1102#1095#1077#1085#1085#1086#1081' '#1073#1080#1073#1083#1080#1086#1090#1077#1082#1080' ' +
+      'MainDll.dll'
+    TabOrder = 5
+    WordWrap = True
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 440
+    Top = 16
+    Width = 169
+    Height = 90
+    Caption = 
+      #1047#1072#1087#1091#1089#1082' '#1092#1091#1085#1082#1094#1080#1080' Revers '#1080#1079' '#1076#1080#1085#1072#1084#1080#1095#1077#1089#1082#1080' '#1087#1086#1076#1082#1083#1102#1095#1072#1077#1084#1086#1081' '#1073#1080#1073#1083#1080#1086#1090#1077#1082#1080' Mai' +
+      'nDll.dll'
+    TabOrder = 6
+    WordWrap = True
+    OnClick = Button3Click
   end
 end
