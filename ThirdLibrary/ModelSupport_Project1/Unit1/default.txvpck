@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="0fx508xp8pgi5ruei_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,133,220" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Edit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Edit2" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.RichEdit1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Label1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Label2" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.TForm1.Button2" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button1Click(System.TObject)" />
+      <reference referencedUin="delphi:e_method:src:Project1:Unit1.TForm1.Button2Click(System.TObject)" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Button2">
+        <property name="sourceAnchor" value="143,52" />
+        <property name="targetAnchor" value="280,52" />
+        <property name="bendpoints" value="" />
+      </reference>
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.TForm1.Button1">
+        <property name="sourceAnchor" value="143,60" />
+        <property name="targetAnchor" value="280,60" />
+        <property name="bendpoints" value="" />
+      </reference>
+    </reference>
+    <reference referencedUin="delphi:e_class:src:Project1:Unit1.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.@unitclass.Form1" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.@unitclass.SummaX_Y" />
+      <reference referencedUin="delphi:e_field:src:Project1:Unit1.@unitclass.ProizvX_Y" />
+      <reference referencedUin="delphi:l_ast:src:Project1:Unit1.@unitclass.Form1" />
+    </reference>
+    <reference referencedUin="delphi:e_class:lib:DelphiWin32:Vcl.StdCtrls.TButton">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="280,20,138,81" />
+      <property name="hideOperation" value="True" />
+      <property name="hideProperty" value="True" />
+      <property name="location_set_by_user" value="True" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ElevationRequired" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnEndDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnContextPopup" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnEndDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ShowHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Caption" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentBiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.SelectedImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DragMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.BiDiMode" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.TabStop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseActivate" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Default" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.StylusHotImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ImageAlignment" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnStartDrag" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnDragOver" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentDoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Constraints" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.PopupMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Images" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.HotImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Anchors" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.PressedImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.CommandLinkHint" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DragKind" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Style" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnKeyUp" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnDropDownClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DisabledImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.WordWrap" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TButton.Create@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DoubleBuffered" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Font" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Enabled" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnKeyPress" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Action" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DropDownMenu" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Visible" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ParentFont" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.DragCursor" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.TabOrder" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnStartDock" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Align" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ImageMargins" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnEnter" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseMove" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnDragDrop" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnClick" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ModalResult" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.ImageIndex" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnExit" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnMouseLeave" />
+      <reference referencedUin="delphi:e_method:lib:DelphiWin32:Vcl.StdCtrls.TButton.Destroy@()" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.OnKeyDown" />
+      <reference referencedUin="delphi:e_property:lib:DelphiWin32:Vcl.StdCtrls.TButton.Cancel" />
+    </reference>
+  </view>
+</nodeSet>

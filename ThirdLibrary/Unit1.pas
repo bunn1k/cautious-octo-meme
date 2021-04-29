@@ -12,16 +12,12 @@ type
     Button1: TButton;
     Edit1: TEdit;
     Edit2: TEdit;
-    Edit3: TEdit;
     RichEdit1: TRichEdit;
     Label1: TLabel;
     Label2: TLabel;
-    Label3: TLabel;
     Button2: TButton;
-    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
-    procedure Button3Click(Sender: TObject);
   private
 
   public
@@ -32,7 +28,6 @@ var
   Form1: TForm1;
   SummaX_Y: function(X, Y: real): real;
   ProizvX_Y: function(X, Y: real): real;
-  Revers: function(S: string): string;
 
 implementation
 
@@ -76,27 +71,6 @@ begin
     @ProizvX_Y := GetProcAddress(H, 'ProizvX_Y');
     if @ProizvX_Y <> nil then
       RichEdit1.Lines.Add(FloatToStr(ProizvX_Y(X, Y)));
-
-    FreeLibrary(H);
-  end;
-
-end;
-
-procedure TForm1.Button3Click(Sender: TObject);
-var
-  H: THandle;
-  S: string;
-begin
-  RichEdit1.Clear;
-  S := Edit3.Text;
-
-  H := LoadLibrary('MainDll.dll');
-
-  if H <> 0 then
-  begin
-    @Revers := GetProcAddress(H, 'Revers');
-    if @Revers <> nil then
-      RichEdit1.Lines.Add(Revers(S)); //
 
     FreeLibrary(H);
   end;

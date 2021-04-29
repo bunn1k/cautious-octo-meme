@@ -23,7 +23,7 @@ begin
   L:=length(S);
   S_:='';
   for i := 1 to L do
-    S_:=S_+S[L-i+1];
+    S_:=S_ + S[L-i+1];
   result:=S_;
 end;
 
